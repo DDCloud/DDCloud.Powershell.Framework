@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{99B81E27-DE7C-4E5B-ABE1-82324E84AEE3}"
+	ProjectSection(SolutionItems) = preProject
+		Common.props = Common.props
+		Code Analysis\DD Cloud (Unit Test).ruleset = Code Analysis\DD Cloud (Unit Test).ruleset
+		Code Analysis\DD Cloud.ruleset = Code Analysis\DD Cloud.ruleset
+		SolutionAssemblyInfo.cs = SolutionAssemblyInfo.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Powershell.Framework", "Powershell.Framework\Powershell.Framework.csproj", "{65D0797D-5F61-4A5D-A8AD-1733D4CC5BDA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65D0797D-5F61-4A5D-A8AD-1733D4CC5BDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65D0797D-5F61-4A5D-A8AD-1733D4CC5BDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65D0797D-5F61-4A5D-A8AD-1733D4CC5BDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65D0797D-5F61-4A5D-A8AD-1733D4CC5BDA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
